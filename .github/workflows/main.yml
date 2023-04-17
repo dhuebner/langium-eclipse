@@ -16,7 +16,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
-        java-version: 17
+        java-version: 11
         distribution: adopt
 
     # Maven build start
@@ -39,7 +39,7 @@ jobs:
         retention-days: 14
     - name: Purge Artifacts from Cache
       run: |
-        mvn dependency:purge-local-repository -DmanualInclude=io.typefox.langium.eclipse -ntp
+        mvn dependency:purge-local-repository -DmanualInclude=io.typefox.xtext2langium -ntp
     # Maven build end
 
     - name: Publish to GH packages
