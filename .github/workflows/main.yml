@@ -1,4 +1,4 @@
-name: Build Xtext2Langium Fragment
+name: Build Langium Eclipse
 
 on:
   push:
