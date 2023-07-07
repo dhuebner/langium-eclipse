@@ -17,6 +17,7 @@
 	<modules>
 		<module>io.typefox.langium.eclipse</module>
 		<module>releng/target-platform</module>
+		<module>releng/feature</module>
 		<module>releng/repository</module>
 	</modules>
 	<build>
@@ -113,7 +114,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-clean-plugin</artifactId>
-					<version>2.5</version>
+					<version>3.2.0</version>
 					<configuration>
 						<filesets>
 							<fileset>
@@ -139,11 +140,6 @@
 							<pattern>META-INF/ECLIPSE_.SF</pattern>
 						</ignoredPatterns>
 					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-clean-plugin</artifactId>
-					<version>3.2.0</version>
 				</plugin>
 				<plugin>
 					<groupId>com.googlecode.maven-download-plugin</groupId>

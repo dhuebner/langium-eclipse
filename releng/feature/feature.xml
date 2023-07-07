@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="io.typefox.langium.eclipse.feature"
+      label="Langium Eclipse Editor"
+      version="1.0.1.qualifier"
+      plugin="io.typefox.langium.eclipse">
+
+   <description>
+      Editor for the Langium Grammar Language.
+   </description>
+
+   <plugin
+         id="io.typefox.langium.eclipse"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <bundle id="io.typefox.langium.eclipse">
+   <feature id="io.typefox.langium.eclipse.feature">
       <category name="langium"/>
-   </bundle>
-   <bundle id="io.typefox.langium.eclipse.source">
-      <category name="langium"/>
-   </bundle>
+   </feature>
    <category-def name="langium" label="Langium Plug-In">
    </category-def>
 </site>
